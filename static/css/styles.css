@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+}
+
+.card{
+    border: 1px solid black;
+    margin: 10px;
+    /* padding: 10px; */
+    min-height: 180px;
+    min-width: 300px;
+}
+
+.card h3{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.options{
+    display: grid;
+}
+.options button{
+    appearance: none;
+    height: 35px;
+    width: 93%;
+    margin: 10px;
+}
