@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Here you'll see all the polls</h1>
+    {% extends 'templates/navigator.html' %}
+
+    {% block content %} 
+
     <div class="container">
         {% for item in result %}
         <div class="card">
@@ -20,5 +23,7 @@
         </div>
         {% endfor %}
     </div>
+
+    {% endblock %}
 </body>
 </html>
