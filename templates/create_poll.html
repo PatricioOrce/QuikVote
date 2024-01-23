@@ -1,0 +1,12 @@
+{% extends 'templates/navigator.html' %}
+
+{% block content %}
+
+<h1>Create Your Poll Here</h1>
+
+<form action="post">
+{% csrf_token %}
+
+</form>
+
+{% endblock %}

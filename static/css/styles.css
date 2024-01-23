@@ -6,8 +6,9 @@
     border: 1px solid black;
     margin: 10px;
     /* padding: 10px; */
-    min-height: 180px;
-    min-width: 300px;
+    height: inherit;
+    width: inherit;
+
 }
 
 .card h3{
@@ -17,10 +18,18 @@
 
 .options{
     display: grid;
+    margin: 10px;
 }
 .options button{
     appearance: none;
     height: 35px;
     width: 93%;
     margin: 10px;
+}
+
+
+nav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
